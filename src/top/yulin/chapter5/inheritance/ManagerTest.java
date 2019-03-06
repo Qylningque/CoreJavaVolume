@@ -1,4 +1,4 @@
-package top.yulin.chapter5;
+package top.yulin.chapter5.inheritance;
 
 /**
  * 5-1

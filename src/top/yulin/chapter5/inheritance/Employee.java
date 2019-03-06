@@ -1,4 +1,4 @@
-package top.yulin.chapter5;
+package top.yulin.chapter5.inheritance;
 
 import java.time.LocalDate;
 
