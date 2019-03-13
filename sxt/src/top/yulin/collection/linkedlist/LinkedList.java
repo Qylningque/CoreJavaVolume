@@ -1,9 +1,12 @@
 package top.yulin.collection.linkedlist;
 
+import src.top.yulin.collection.linkedlist.Node;
+
 /**
  * 自定义一个双向链表
  */
 public class LinkedList {
+/*
 
     private Node first;
     private Node last;
@@ -18,7 +21,7 @@ public class LinkedList {
             last = node;
         }else{
             //添加元素本身
-            node.next = null;//元素下一节点为空
+            node.next= null;//元素下一节点为空
             node.previous = last;//元素上一节点为上一个设置的节点
             //设置元素上一个节点元素的上下节点关联
             last.next = node;//上一节点的下一个元素是添加元素
@@ -26,5 +29,6 @@ public class LinkedList {
         }
         size++;//元素数量+1
     }
+*/
 
 }
