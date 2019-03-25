@@ -1,4 +1,4 @@
-package src.top.yulin.thread.download;
+package top.yulin.thread.download;
 
 /**
  * 多线程下载图片

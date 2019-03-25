@@ -1,4 +1,4 @@
-package src.top.yulin.thread.download;
+package top.yulin.thread.download;
 
 import org.apache.commons.io.FileUtils;
 

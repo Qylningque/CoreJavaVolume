@@ -1,4 +1,4 @@
-package src.top.yulin.io.commonsIO;
+package top.yulin.io.commonsIO;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
