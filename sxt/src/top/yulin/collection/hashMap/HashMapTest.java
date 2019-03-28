@@ -1,4 +1,4 @@
-package src.top.yulin.collection.hashMap;
+package top.yulin.collection.hashMap;
 
 /**
  * 测试手写实现的HashMap

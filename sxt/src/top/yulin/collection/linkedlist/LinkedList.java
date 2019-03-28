@@ -1,12 +1,10 @@
 package top.yulin.collection.linkedlist;
 
-import src.top.yulin.collection.linkedlist.Node;
-
 /**
  * 自定义一个双向链表
  */
 public class LinkedList {
-/*
+
 
     private Node first;
     private Node last;
@@ -29,6 +27,6 @@ public class LinkedList {
         }
         size++;//元素数量+1
     }
-*/
+
 
 }

@@ -1,4 +1,4 @@
-package src.top.yulin.collection.linkedlist;
+package top.yulin.collection.linkedlist;
 
 /**
  * 定义一个Node类用于linkedList手写

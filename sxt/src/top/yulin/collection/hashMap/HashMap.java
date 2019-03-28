@@ -1,4 +1,4 @@
-package src.top.yulin.collection.hashMap;
+package top.yulin.collection.hashMap;
 
 /**
  * HashMap手写实现
@@ -6,7 +6,6 @@ package src.top.yulin.collection.hashMap;
  *
  */
 public class HashMap<K,V> {
-
     Node[] table;//位桶数组
     int size;//存放键值对的个数
 
