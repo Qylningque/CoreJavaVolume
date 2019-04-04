@@ -1,7 +1,7 @@
 package top.linco.oo;
 
 /**
- * 了解OO思想
+ * 策略模式
  * Duck超类
  */
 public abstract class Duck {
