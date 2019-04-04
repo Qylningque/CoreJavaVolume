@@ -1,4 +1,4 @@
-package top.linco.oo;
+package src.top.linco.oo;
 
 /**
  * 策略模式

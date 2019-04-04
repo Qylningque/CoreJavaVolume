@@ -1,4 +1,4 @@
-package top.linco.oo;
+package src.top.linco.oo;
 
 /**
  * 定义一个黄鸭子
@@ -19,6 +19,7 @@ public class YellowDuck extends Duck {
     /**
      * 飞行方式
      */
+    @Override
     public void flyPerform(){
         FlyBehavior flyBehavior = new FlyHight();
         flyBehavior.fly();
@@ -26,6 +27,7 @@ public class YellowDuck extends Duck {
     /**
      * 叫法
      */
+    @Override
     public void quackPerform(){
         QuackBehavior quackBehavior = new QuackWhisper();
         quackBehavior.quack();

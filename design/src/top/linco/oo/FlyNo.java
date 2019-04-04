@@ -1,4 +1,4 @@
-package top.linco.oo;
+package src.top.linco.oo;
 
 public class FlyNo implements FlyBehavior{
 
