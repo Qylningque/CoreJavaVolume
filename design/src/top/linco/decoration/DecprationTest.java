@@ -10,7 +10,7 @@ public class DecprationTest {
         Beverage mocha = new Mocha();
         System.out.println(mocha.getDesc()+"："+mocha.cost());
         Condiment milkForm = new MilkFoam(mocha);
-        System.out.println(milkForm.desc+"："+milkForm.cost());
+        System.out.println(milkForm.getDesc()+"："+milkForm.cost());
         Condiment chocolate = new Chocolate(milkForm);
         System.out.println(chocolate.getDesc()+"："+chocolate.cost());
 

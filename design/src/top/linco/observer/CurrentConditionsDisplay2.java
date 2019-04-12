@@ -35,10 +35,12 @@ public class CurrentConditionsDisplay2 implements Observer,DisplayElement {
     }
 
     /**
-     * 更新方法，根据主题传过来的数据 对自身数据重新赋值 调用自身的display方法，增加Observable和数据对象作为参数
-     * @param obs
-     * @param arg
-     */
+     * @Author zbj
+     * @Description  更新方法，根据主题传过来的数据 对自身数据重新赋值 调用自身的display方法，增加Observable和数据对象作为参数
+     * @Date  2019/4/12 15:59
+     * @Param [obs, arg]
+     * @return void
+     **/
     @Override
     public void update(Observable obs,Object arg) {
         //判断是否是WeatherData2可观察者的通知
