@@ -1,5 +1,6 @@
 package com.linco.chapter_02.test;
 
+import com.linco.chapter_02.stereo_autoconfig.CDPlayer;
 import com.linco.chapter_02.stereo_autoconfig.CDPlayerConfig;
 import com.linco.chapter_02.stereo_autoconfig.CompactDisc;
 import org.junit.Test;
@@ -30,6 +31,7 @@ public class CDPlayerTest {
      */
     @Test
     public void cdShouldNotBeNull(){
+        cd.play();
         assertNotNull(cd);
     }
 
