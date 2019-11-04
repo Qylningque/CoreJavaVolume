@@ -29,7 +29,7 @@ package com.linco.leecode;
  *     ListNode(int x) { val = x; }
  * }
  */
-public class addTwoNumbers {
+public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode results = new ListNode(0);
         ListNode p = l1 , q = l2 , curr = results;
