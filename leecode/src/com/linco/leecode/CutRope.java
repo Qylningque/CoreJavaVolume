@@ -26,6 +26,7 @@ package com.linco.leecode;
  * 18
  */
 public class CutRope {
+    //动态规划
     public int cutRope(int target) {
         int[] n = new int[target + 1];
         n[1] = 1;
